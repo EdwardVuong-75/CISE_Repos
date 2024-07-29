@@ -2,17 +2,17 @@ name: CI_action
 
 on:
  push:
-   branches: [main]
+    branches: [main]
  pull_request:
-   branches: [main]
+    branches: [main]
 
 jobs:
-  build:
+ build:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-       node-version: [12.x]
+        node-version: [12.x]
 
     steps:
       - name: Checkout repository
