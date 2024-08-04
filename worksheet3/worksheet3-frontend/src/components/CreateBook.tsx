@@ -31,23 +31,16 @@ className="container">
 className="row">
 <div
 className="col-md-8 m-auto">
-<br />
-<Link
-href="/"
-className="btn btn-outline-warning float-left">
+<br/>
+<Link href="/" className="btn btn-outline-warning float-left">
 Show BooK List
 </Link>
 </div>
-<div
-className="col-md-10 m-auto">
-<h1
-className="display-4 text-center">Add Book</h1>
-<p
-className="lead text-center">Create new book</p>
-<form
-noValidate onSubmit={onSubmit}>
-<div
-className="form-group">
+<div className="col-md-10 m-auto">
+<h1 className="display-4 text-center">Add Book</h1>
+<p className="lead text-center">Create new book</p>
+<form noValidate onSubmit={onSubmit}>
+<div className="form-group">
 <input
 type="text"
 placeholder="Title of the Book"
@@ -58,8 +51,7 @@ onChange={onChange}
 />
 </div>
 <br />
-<div
-className="form-group">
+<div className="form-group">
 <input
 type="text"
 placeholder="ISBN"
@@ -119,9 +111,7 @@ onChange={onChange}
 </div>
 <button
 type="submit"
-className="btn btn-outline-warning btn-block mt-4 mb-4 w-100"
-></button>Submit
-</button>
+className="btn btn-outline-warning btn-block mt-4 mb-4 w-100">Submit</button>
 </form>
 </div>
 </div>

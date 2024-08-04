@@ -32,4 +32,4 @@ const BookCard = ({ book }: IProp) => {
     </div>
     );
     };
-    export default BookCard; 
+    export default BookCard;

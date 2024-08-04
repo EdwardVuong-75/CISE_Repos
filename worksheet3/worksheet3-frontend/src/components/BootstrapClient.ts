@@ -6,4 +6,4 @@ useEffect(() => {
 }, []);
 return null;
 }
-export default BootstrapClient;
+export default BootstrapClient; 
